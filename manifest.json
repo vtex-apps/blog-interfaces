@@ -1,0 +1,21 @@
+{
+  "vendor": "vtex",
+  "name": "blog-interfaces",
+  "version": "0.0.1",
+  "title": "Blog Interfaces",
+  "description": "Abstract interfaces for blog integrations",
+  "builders": {
+    "store": "0.x",
+    "react": "3.x"
+  },
+  "mustUpdateAt": "2019-04-02",
+  "scripts": {
+    "postreleasy": "vtex publish --verbose"
+  },
+  "dependencies": {
+    "vtex.store": "2.x",
+    "vtex.store-header": "2.x",
+    "vtex.store-footer": "2.x"
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

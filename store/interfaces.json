@@ -1,0 +1,87 @@
+{
+  "store.blog-home": {
+    "before": [
+      "header.full"
+    ],
+    "allowed": [
+      "blog-all-posts",
+      "blog-latest-posts-preview",
+      "blog-category-preview",
+      "blog-search"
+    ],
+    "after": [
+      "footer"
+    ]
+  },
+  "store.blog-category": {
+    "before": [
+      "header.full"
+    ],
+    "required": [
+      "blog-category-list"
+    ],
+    "allowed": [
+      "blog-search",
+      "blog-category-preview"
+    ],
+    "after": [
+      "footer"
+    ]
+  },
+  "store.blog-post": {
+    "before": [
+      "header.full"
+    ],
+    "required": [
+      "blog-post-details"
+    ],
+    "allowed": [
+      "blog-search"
+    ],
+    "after": [
+      "footer"
+    ]
+  },
+  "store.blog-search-result": {
+    "before": [
+      "header.full"
+    ],
+    "required": [
+      "blog-search-list"
+    ],
+    "allowed": [
+      "blog-search"
+    ],
+    "after": [
+      "footer"
+    ]
+  },
+  "blog-all-posts": {
+    "component": "Noop",
+    "extensible": "public"
+  },
+  "blog-latest-posts-preview": {
+    "component": "Noop",
+    "extensible": "public"
+  },
+  "blog-category-preview": {
+    "component": "Noop",
+    "extensible": "public"
+  },
+  "blog-category-list": {
+    "component": "Noop",
+    "extensible": "public"
+  },
+  "blog-post-details": {
+    "component": "Noop",
+    "extensible": "public"
+  },
+  "blog-search": {
+    "component": "Noop",
+    "extensible": "public"
+  },
+  "blog-search-list": {
+    "component": "Noop",
+    "extensible": "public"
+  }
+}
