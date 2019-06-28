@@ -12,10 +12,6 @@
   "scripts": {
     "postreleasy": "vtex publish --verbose"
   },
-  "dependencies": {
-    "vtex.store": "2.x",
-    "vtex.store-header": "2.x",
-    "vtex.store-footer": "2.x"
-  },
+  "dependencies": {},
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
