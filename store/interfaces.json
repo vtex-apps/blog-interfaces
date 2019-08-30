@@ -27,6 +27,10 @@
     "component": "Noop",
     "extensible": "public"
   },
+  "blog-search-preview": {
+    "component": "Noop",
+    "extensible": "public"
+  },
   "blog-search-list": {
     "component": "Noop",
     "extensible": "public"
@@ -36,6 +40,10 @@
     "extensible": "public"
   },
   "blog-related-posts": {
+    "component": "Noop",
+    "extensible": "public"
+  },
+  "blog-breadcrumb": {
     "component": "Noop",
     "extensible": "public"
   }
