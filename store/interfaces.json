@@ -27,7 +27,7 @@
     "component": "Noop",
     "extensible": "public"
   },
-  "blog-search-preview": {
+  "search-blog-articles-preview": {
     "component": "Noop",
     "extensible": "public"
   },

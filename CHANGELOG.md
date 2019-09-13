@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.0.4] - 2019-09-13
+
+### Changed
+- Renamed `blog-search-preview` to `search-blog-articles-preview`
+
 ## [0.0.3] - 2019-08-30
 
 ### Added

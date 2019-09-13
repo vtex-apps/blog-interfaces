@@ -1,7 +1,7 @@
 {
   "vendor": "vtex",
   "name": "blog-interfaces",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "title": "Blog Interfaces",
   "description": "Abstract interfaces for blog integrations",
   "builders": {
