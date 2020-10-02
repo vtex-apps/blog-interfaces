@@ -18,10 +18,7 @@
   "blog-post-container": {
     "component": "Noop",
     "extensible": "public",
-    "composition": "children",
-    "allowed": [
-      "blog-post-navigation"
-    ]
+    "composition": "children"
   },
   "blog-post-details": {
     "component": "Noop",
