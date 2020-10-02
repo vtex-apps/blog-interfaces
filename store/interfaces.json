@@ -15,6 +15,11 @@
     "component": "Noop",
     "extensible": "public"
   },
+  "blog-post-container": {
+    "component": "Noop",
+    "extensible": "public",
+    "composition": "children"
+  },
   "blog-post-details": {
     "component": "Noop",
     "extensible": "public",
@@ -22,6 +27,10 @@
     "allowed": [
       "blog-related-products"
     ]
+  },
+  "blog-post-navigation": {
+    "component": "Noop",
+    "extensible": "public"
   },
   "blog-page-details": {
     "component": "Noop",
