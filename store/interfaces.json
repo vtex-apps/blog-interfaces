@@ -20,7 +20,6 @@
     "extensible": "public",
     "composition": "children",
     "allowed": [
-      "blog-post-details",
       "blog-post-navigation"
     ]
   },
