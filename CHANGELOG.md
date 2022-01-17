@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+
+- Quality Engineering GitHub Actions.
+
 ## [0.2.0] - 2020-10-02
 
 - Added interface for `blog-post-container` and `blog-post-navigation`
