@@ -1,7 +1,7 @@
 {
   "scripts": {
     "test": "vtex-test-tools test",
-    "lint": "tsc --noEmit && eslint --ext ts ."
+    "lint": "eslint --ext js,jsx,ts,tsx ."
   },
   "dependencies": {
     "react": "^16.8.3",
