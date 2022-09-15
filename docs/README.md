@@ -1,5 +1,6 @@
 # Blog Interfaces
 
+
 > Interfaces for a blog integration app.
 
 This app provides extensible interfaces that can be used by the `vtex.store` and a theme app. A blog app (either native or a third-party integration) would depend on this app and extend the interfaces provided to become available in the store.
